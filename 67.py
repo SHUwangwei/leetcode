@@ -25,7 +25,3 @@ s = Solution()
 
 print(s.addBinary('1', '111'))
 
-
-
-
-

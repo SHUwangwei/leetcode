@@ -12,6 +12,7 @@ class Solution:
         res[1] = max(nums[0], nums[1])
         for i in range(2, length):
             res[i] = max(res[i-2]+nums[i], res[i-1])
+        return res[-1]
         # length = len(nums)
         # if length == 0:
         #     return 0
